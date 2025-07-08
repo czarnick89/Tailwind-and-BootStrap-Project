@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Cypress binary cache
+node_modules/.cache/
+# Cypress downloaded browsers and binaries cache
+~/.cache/Cypress/
+# Chrome binaries (usually installed outside project, so no worries here)
